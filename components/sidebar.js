@@ -4,7 +4,17 @@ function sidebar() {
    <div id="mybar">
    <h1>Log In </h1>
     <input type="text" placeholder="Search" id="search">
-    </div>
+    <button id="searchbtn"> Search<button/>
+    <h3>News</h3>
+    <br>
+    <h3>Flim News </h3>
+    <br>
+    <h3>Crime</h3>
+    <br>
+    <h3>Sprots</h3>
+
+
+</div>
     `
   
     // return your html component here

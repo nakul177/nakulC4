@@ -24,8 +24,8 @@
 
       </div>
     </div>
-    <div id="show" onclick="myFun()">
-           
+     <div id="show">
+
     </div>
     </div>
    
@@ -43,7 +43,7 @@ side.innerHTML=sidebar()
 
 let div_main = document.getElementById("show")
 
-let respones = apiCall("https://gnews.io/api/v4/search?q=example&token=a2b5e3f160702c6ececb5f0107c1f4d8&lang=en")
+let respones = apiCall("https://gnews.io/api/v4/search?q=example&token=a2b5e3f160702c6ececb5f0107c1f4d8")
 
 
 respones
@@ -58,13 +58,6 @@ respones
 .catch((err) =>{
   console.log(err)
 })
-
-function myFun(){
-
-window.location.href="news.html"
-
-
-}
 
 
 

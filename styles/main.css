@@ -5,9 +5,9 @@
 
 #mybar{
     width: 300px;
-    height: 500px;
+    height: 800px;
     background-color: aqua;
- 
+    
 }
 #mybar h1{
     text-align: center;
@@ -16,6 +16,15 @@
 #mybar input{
     margin-left: 20px;
 }
+#mybar h3{
+    width: 295px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+   
+}
+
 #show{
     margin-left: 50px;
 }
